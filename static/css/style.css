@@ -38,7 +38,7 @@ aside div#user_meta p {
 aside div#user_meta ul {
   margin: 40px 0 0 0;
   padding-left: 0;
-  font-size: .9rem;
+  font-size: 1rem;
   list-style-type: none;
 }
 aside div#user_meta ul li {
@@ -48,9 +48,9 @@ aside div#user_meta ul li {
 aside div#user_meta ul li a {
   padding: 5px 15px 5px 15px;
   border: 3px solid #eeeeee;
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   color: #999999;
 }
 main header {
@@ -65,7 +65,9 @@ main header p {
 }
 main article {
   max-width: 640px;
-  padding: 40px;
+  padding: 5px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 main article div.article_text {
   line-height: 1.375em;
@@ -153,7 +155,7 @@ main div#ending_message {
 }
 @media screen and (min-width: 1024px) {
   aside {
-    width: 25%;
+    width: 14%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -174,7 +176,7 @@ main div#ending_message {
     width: 75%;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 20%;
     overflow-x: hidden;
     overflow-y: hidden;
   }

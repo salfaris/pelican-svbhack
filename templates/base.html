@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{{ DEFAULT_LANG }}">  
 
 <head>
   <!-- ## for client-side less
@@ -51,6 +51,7 @@
       <h2><a href="{{ SITEURL }}">{{ SITENAME }}</a></h2>
       <p>{{ TAGLINE }}</p>
       <ul>
+        <!-- <li><a href="{{ SITEURL }}">blog</a></li> -->
         {% for title, link in MENUITEMS %}
         <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
@@ -98,3 +99,8 @@
   {% include "modules/idl.html" %}
 </body>
 </html>
+
+<!-- This script solves the issue of mathjax not rendering on homepage -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>

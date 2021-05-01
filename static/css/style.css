@@ -64,7 +64,7 @@ main header p {
   text-transform: uppercase;
 }
 main article {
-  max-width: 640px;
+  max-width: 720px;
   padding: 5px;
   padding-left: 3%;
   padding-right: 3%;
@@ -181,7 +181,7 @@ main div#ending_message {
     overflow-y: hidden;
   }
   main article {
-    max-width: 640px;
+    max-width: 700px;
   }
   main header {
     border-top: 0;
